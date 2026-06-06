@@ -39,6 +39,15 @@ The site supports English, Chinese, and Japanese. English is the default languag
     |-- css
     |   `-- styles.css
     |-- images
+    |   |-- activity
+    |   |   |-- cycling-fuji-hillclimb-finish.jpg
+    |   |   |-- cycling-fuji-view.jpg
+    |   |   |-- cycling-road-action.jpg
+    |   |   |-- cycling-shimanami-kaido.jpg
+    |   |   |-- cycling-summit-bike.jpg
+    |   |   |-- skiing-groomed-run.jpg
+    |   |   |-- skiing-slope-carve.jpg
+    |   |   `-- skiing-snow-turn.jpg
     |   |-- apple-touch-icon.png
     |   |-- favicon.png
     |   |-- site-icon.png
