@@ -13,7 +13,7 @@ const translations = {
     "pr.kicker": "Personal PR",
     "pr.title": "Kevin Wang, WANG MINGKAI, a mechanical engineering student connecting robotics, design, and field experience.",
     "pr.body1": "I am 王明凯 / 王明凱, also using the English name Kevin Wang. I study Mechanical Engineering in the School of Engineering at Tokyo University of Technology.",
-    "pr.body2": "My research direction is still under consideration, with robotics as a main idea. I want to connect mechanical design, control, mobility, and practical making through university projects and independent learning.",
+    "pr.body2": "My interests center on robotics, mechanical design, control, mobility, and practical making. I want to connect university projects and independent learning with real engineering practice.",
     "pr.fact1": "Name: Kevin Wang / WANG MINGKAI / 王明凯",
     "pr.fact2": "University: Tokyo University of Technology",
     "pr.fact3": "Major: Mechanical Engineering",
@@ -35,7 +35,7 @@ const translations = {
     "activity.cycling.title": "Fuji Hill Climb, Haruhill, and Shimanami Kaido",
     "activity.cycling.body": "Cycling records include 富士ヒル, ハルヒル, and しまなみ海道, with attention to route profile, endurance, and equipment.",
     "activity.skiing.title": "Kagura, Beidahu, and Songhua Lake",
-    "activity.skiing.body": "Skiing records include かぐらスキー場, 中国北大湖, and 松花湖滑雪场, with photos and notes to be added.",
+    "activity.skiing.body": "Skiing records include かぐらスキー場, 中国北大湖, and 松花湖滑雪场, with photos and notes from each trip.",
     "activity.gear.title": "Equipment and field notes",
     "activity.gear.body": "Equipment setup, maintenance, upgrades, and field observations connect outdoor activity with mechanical thinking.",
     "photos.kicker": "Photo Exhibition",
@@ -53,7 +53,7 @@ const translations = {
     "nav.pr": "个人PR",
     "nav.research": "研究",
     "nav.activity": "骑行与滑雪",
-    "nav.photos": "照片展",
+    "nav.photos": "照片",
     "nav.contact": "联系",
     "hero.eyebrow": "在日本学习机械工程",
     "hero.title": "个人PR、研究记录，以及运动中的生活。",
@@ -63,7 +63,7 @@ const translations = {
     "pr.kicker": "个人PR",
     "pr.title": "Kevin Wang / WANG MINGKAI，一名连接机器人、机械设计和现场体验的机械工程学生。",
     "pr.body1": "我是王明凯 / 王明凱，英文名 Kevin Wang。目前在 Tokyo University of Technology 的 School of Engineering 学习 Mechanical Engineering。",
-    "pr.body2": "我的兴趣集中在机器人、机械设计、控制、移动出行和实践制作，希望通过大学项目与自主学习把这些方向连接起来。",
+    "pr.body2": "我的兴趣集中在机器人、机械设计、控制、移动出行和实践制作，希望通过大学项目与自主学习把这些方向连接到真实工程实践。",
     "pr.fact1": "姓名：Kevin Wang / WANG MINGKAI / 王明凯",
     "pr.fact2": "大学：Tokyo University of Technology",
     "pr.fact3": "专业：Mechanical Engineering",
@@ -85,7 +85,7 @@ const translations = {
     "activity.cycling.title": "富士ヒル、ハルヒル、しまなみ海道",
     "activity.cycling.body": "骑行记录包括富士ヒル、ハルヒル和しまなみ海道，关注路线特征、耐力和装备。",
     "activity.skiing.title": "かぐら、北大湖、松花湖",
-    "activity.skiing.body": "滑雪记录包括かぐらスキー場、中国北大湖和松花湖滑雪场，记录雪场体验、技术感受和照片。",
+    "activity.skiing.body": "滑雪记录包括かぐらスキー場、中国北大湖和松花湖滑雪场，记录每次行程的照片与笔记。",
     "activity.gear.title": "装备与现场笔记",
     "activity.gear.body": "装备配置、维护、升级和现场观察，把户外活动与机械思维连接起来。",
     "photos.kicker": "照片展",
@@ -103,7 +103,7 @@ const translations = {
     "nav.pr": "自己PR",
     "nav.research": "研究",
     "nav.activity": "自転車・スキー",
-    "nav.photos": "写真展",
+    "nav.photos": "写真",
     "nav.contact": "連絡",
     "hero.eyebrow": "日本で機械工学を学ぶ学生",
     "hero.title": "自己PR、研究記録、そして動きのある生活。",
@@ -113,7 +113,7 @@ const translations = {
     "pr.kicker": "自己PR",
     "pr.title": "Kevin Wang / WANG MINGKAI、ロボット、機械設計、現場経験をつなげる機械工学学生です。",
     "pr.body1": "王明凯 / 王明凱、英語名 Kevin Wang です。Tokyo University of Technology の School of Engineering で Mechanical Engineering を学んでいます。",
-    "pr.body2": "ロボット、機械設計、制御、モビリティ、実践的なものづくりに関心があり、大学でのプロジェクトと自主学習を通してそれらをつなげたいです。",
+    "pr.body2": "ロボット、機械設計、制御、モビリティ、実践的なものづくりに関心があり、大学でのプロジェクトと自主学習を実際の工学実践につなげたいです。",
     "pr.fact1": "名前：Kevin Wang / WANG MINGKAI / 王明凯",
     "pr.fact2": "大学：Tokyo University of Technology",
     "pr.fact3": "専攻：Mechanical Engineering",
@@ -135,7 +135,7 @@ const translations = {
     "activity.cycling.title": "富士ヒル、ハルヒル、しまなみ海道",
     "activity.cycling.body": "富士ヒル、ハルヒル、しまなみ海道の記録を通して、ルート特性、持久力、装備に注目しています。",
     "activity.skiing.title": "かぐら、北大湖、松花湖",
-    "activity.skiing.body": "かぐらスキー場、中国北大湖、松花湖滑雪場での経験を、雪質、技術、写真とともに記録します。",
+    "activity.skiing.body": "かぐらスキー場、中国北大湖、松花湖滑雪場での経験を、写真とメモとともに記録します。",
     "activity.gear.title": "道具と現場メモ",
     "activity.gear.body": "道具の設定、メンテナンス、アップグレード、現場での観察を機械工学の視点と結びつけます。",
     "photos.kicker": "写真展",
@@ -176,10 +176,6 @@ function setLanguage(lang) {
   localStorage.setItem("preferredLanguage", lang);
 }
 
-languageButtons.forEach((button) => {
-  button.addEventListener("click", () => setLanguage(button.dataset.lang));
-});
-
 function setTheme(choice) {
   const themeChoice = ["auto", "light", "dark"].includes(choice) ? choice : "auto";
 
@@ -196,22 +192,31 @@ function setTheme(choice) {
   localStorage.setItem("preferredTheme", themeChoice);
 }
 
+languageButtons.forEach((button) => {
+  button.addEventListener("click", () => setLanguage(button.dataset.lang));
+});
+
 themeButtons.forEach((button) => {
   button.addEventListener("click", () => setTheme(button.dataset.themeChoice));
 });
 
-navToggle.addEventListener("click", () => {
-  const isOpen = navMenu.classList.toggle("open");
-  navToggle.setAttribute("aria-expanded", String(isOpen));
-});
-
-navMenu.querySelectorAll("a").forEach((link) => {
-  link.addEventListener("click", () => {
-    navMenu.classList.remove("open");
-    navToggle.setAttribute("aria-expanded", "false");
+if (navToggle && navMenu) {
+  navToggle.addEventListener("click", () => {
+    const isOpen = navMenu.classList.toggle("open");
+    navToggle.setAttribute("aria-expanded", String(isOpen));
   });
-});
 
-yearNode.textContent = new Date().getFullYear();
+  navMenu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navMenu.classList.remove("open");
+      navToggle.setAttribute("aria-expanded", "false");
+    });
+  });
+}
+
+if (yearNode) {
+  yearNode.textContent = new Date().getFullYear();
+}
+
 setLanguage(localStorage.getItem("preferredLanguage") || "en");
 setTheme(localStorage.getItem("preferredTheme") || "auto");

@@ -12,8 +12,8 @@ Kevin Wang, WANG MINGKAI, is a mechanical engineering student at Tokyo Universit
 
 - Personal PR
 - Research
-- Cycling & Skiing
-- Photo Exhibition
+- Cycling & Skiing (`activity.html`)
+- Photo Exhibition (`photos.html`)
 - Contact
 
 ## Technology
@@ -32,6 +32,8 @@ The site supports English, Chinese, and Japanese. English is the default languag
 ```text
 .
 |-- index.html
+|-- activity.html
+|-- photos.html
 |-- README.md
 `-- assets
     |-- css

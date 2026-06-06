@@ -359,6 +359,22 @@ h3 {
   padding: 96px 0;
 }
 
+.subpage-hero {
+  padding: 110px 0 84px;
+}
+
+.subpage-hero h1 {
+  max-width: 10em;
+  color: var(--ink);
+}
+
+.subpage-hero p:last-child {
+  max-width: 720px;
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
 .section-inner {
   width: min(1120px, calc(100% - 32px));
   margin: 0 auto;
@@ -660,6 +676,10 @@ h3 {
   .section,
   .section-band {
     padding: 68px 0;
+  }
+
+  .subpage-hero {
+    padding: 78px 0 56px;
   }
 
   .project-grid,
