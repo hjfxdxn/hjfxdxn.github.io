@@ -56,4 +56,6 @@ The site supports English, Chinese, and Japanese. English is the default languag
 
 Email: e5a24111ee [at] edu.teu.ac.jp
 
+Strava: https://strava.com/athletes/123462810
+
 Please use `@` in place of `[at]` when sending email.

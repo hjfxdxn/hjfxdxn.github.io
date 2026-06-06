@@ -420,8 +420,23 @@ h3 {
   color: #fff;
 }
 
-.status-button {
-  cursor: default;
+.strava-badge {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-top: 24px;
+  background-image: url("https://badges.strava.com/echelon-sprite-48.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.strava-badge img {
+  height: 48px;
+  visibility: hidden;
+}
+
+.strava-badge:hover {
+  background-position: 0 -63px;
 }
 
 .ride-list {
