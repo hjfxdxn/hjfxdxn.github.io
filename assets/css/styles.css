@@ -420,6 +420,10 @@ h3 {
   color: #fff;
 }
 
+.status-button {
+  cursor: default;
+}
+
 .ride-list {
   display: grid;
   gap: 14px;

@@ -1,32 +1,14 @@
-# Kevin Wang GitHub Pages Site
+# Kevin Wang | Personal Website
 
-This is a static personal website for `hjfxdxn.github.io`.
+This repository contains the source files for Kevin Wang's personal website, published with GitHub Pages.
 
-Default language: English.
+Website: https://hjfxdxn.github.io
 
-## Directory
+## About
 
-```text
-.
-├── index.html
-├── README.md
-└── assets
-    ├── css
-    │   └── styles.css
-    ├── images
-    │   ├── gallery-campus.png
-    │   ├── gallery-detail.png
-    │   ├── gallery-ride.png
-    │   ├── gallery-workshop.png
-    │   ├── hero-mechanical-cycling.png
-    │   ├── project-analysis.png
-    │   ├── project-cad.png
-    │   └── project-prototype.png
-    └── js
-        └── main.js
-```
+Kevin Wang, WANG MINGKAI, is a mechanical engineering student at Tokyo University of Technology. This website introduces his personal profile, study interests, outdoor activity records, photo exhibition, and contact information.
 
-## Current Sections
+## Sections
 
 - Personal PR
 - Research
@@ -34,39 +16,44 @@ Default language: English.
 - Photo Exhibition
 - Contact
 
-## Information To Fill In
+## Technology
 
-Please prepare these items:
+This is a lightweight static website built with:
 
-1. Strava profile URL, for example `https://www.strava.com/athletes/12345678`.
-2. Official personal PR text if you want to replace the current draft.
-3. Research topics or class projects after the robotics direction becomes clearer.
-4. University laboratory name, if any.
-5. CAD, prototype, or report images for the research cards.
-6. Cycling records: route name, distance, elevation, time, date, activity URL.
-7. Skiing records: resort, date, snow condition, photos, notes.
-8. Photo exhibition images and captions.
-9. Contact links: Instagram, LinkedIn, university page, if needed.
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
 
-## Deploy to GitHub Pages
+The site supports English, Chinese, and Japanese. English is the default language.
 
-1. Open your repository: `https://github.com/hjfxdxn/hjfxdxn.github.io`
-2. Upload all files in this folder to the repository root.
-3. Go to `Settings` -> `Pages`.
-4. Set source to `Deploy from a branch`.
-5. Choose branch `main` and folder `/root`.
-6. Wait for GitHub Pages to publish.
-7. Visit `https://hjfxdxn.github.io`.
-
-## Next Blog Structure
-
-For a simple static blog later, add:
+## Structure
 
 ```text
-blog/
-├── index.html
-└── posts/
-    └── 2026-06-first-post.html
+.
+|-- index.html
+|-- README.md
+`-- assets
+    |-- css
+    |   `-- styles.css
+    |-- images
+    |   |-- apple-touch-icon.png
+    |   |-- favicon.png
+    |   |-- site-icon.png
+    |   |-- gallery-campus.png
+    |   |-- gallery-detail.png
+    |   |-- gallery-ride.png
+    |   |-- gallery-workshop.png
+    |   |-- hero-mechanical-cycling.png
+    |   |-- project-analysis.png
+    |   |-- project-cad.png
+    |   `-- project-prototype.png
+    `-- js
+        `-- main.js
 ```
 
-For a more scalable blog, switch to Jekyll or Astro after the homepage content is stable.
+## Contact
+
+Email: e5a24111ee [at] edu.teu.ac.jp
+
+Please use `@` in place of `[at]` when sending email.
