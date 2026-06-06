@@ -70,7 +70,7 @@ a {
   overflow: hidden;
   place-items: center;
   border-radius: 50%;
-  background: var(--ink);
+  background: transparent;
   color: #fff;
   font-size: 0.9rem;
 }
