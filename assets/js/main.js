@@ -152,6 +152,7 @@ const translations = {
 };
 
 const languageButtons = document.querySelectorAll(".lang-button");
+const themeButtons = document.querySelectorAll(".theme-button");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
@@ -179,6 +180,26 @@ languageButtons.forEach((button) => {
   button.addEventListener("click", () => setLanguage(button.dataset.lang));
 });
 
+function setTheme(choice) {
+  const themeChoice = ["auto", "light", "dark"].includes(choice) ? choice : "auto";
+
+  if (themeChoice === "auto") {
+    document.documentElement.removeAttribute("data-theme");
+  } else {
+    document.documentElement.dataset.theme = themeChoice;
+  }
+
+  themeButtons.forEach((button) => {
+    button.classList.toggle("active", button.dataset.themeChoice === themeChoice);
+  });
+
+  localStorage.setItem("preferredTheme", themeChoice);
+}
+
+themeButtons.forEach((button) => {
+  button.addEventListener("click", () => setTheme(button.dataset.themeChoice));
+});
+
 navToggle.addEventListener("click", () => {
   const isOpen = navMenu.classList.toggle("open");
   navToggle.setAttribute("aria-expanded", String(isOpen));
@@ -193,3 +214,4 @@ navMenu.querySelectorAll("a").forEach((link) => {
 
 yearNode.textContent = new Date().getFullYear();
 setLanguage(localStorage.getItem("preferredLanguage") || "en");
+setTheme(localStorage.getItem("preferredTheme") || "auto");
