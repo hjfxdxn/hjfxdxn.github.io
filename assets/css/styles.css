@@ -221,6 +221,11 @@ a {
   color: var(--control-active-fg);
 }
 
+.footer-theme-switcher {
+  margin: 0 auto 16px;
+  width: fit-content;
+}
+
 .nav-toggle {
   display: none;
   width: 42px;
