@@ -1,52 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevin Wang</title>
-
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            text-align:center;
-            margin-top:100px;
-            background:#f5f5f5;
-        }
-
-        h1{
-            font-size:48px;
-        }
-
-        p{
-            font-size:20px;
-        }
-
-        .card{
-            background:white;
-            width:600px;
-            margin:auto;
-            padding:40px;
-            border-radius:15px;
-            box-shadow:0 0 20px rgba(0,0,0,0.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kevin Wang's personal website for mechanical engineering projects, photography, and cycling records.">
+  <title>Kevin Wang | Mechanical Engineering Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Kevin Wang home">
+        <span class="brand-mark">KW</span>
+        <span class="brand-text">Kevin Wang</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#projects" data-i18n="nav.projects">项目</a>
+        <a href="#gallery" data-i18n="nav.gallery">照片墙</a>
+        <a href="#cycling" data-i18n="nav.cycling">骑行</a>
+        <a href="#contact" data-i18n="nav.contact">联系</a>
+        <div class="language-switcher" aria-label="Language selector">
+          <button class="lang-button active" type="button" data-lang="zh">中</button>
+          <button class="lang-button" type="button" data-lang="en">EN</button>
+          <button class="lang-button" type="button" data-lang="ja">日</button>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-<div class="card">
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/images/hero-mechanical-cycling.png" alt="">
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">机械工程学生 / 日本大学在读</p>
+        <h1 data-i18n="hero.title">把机械、设计和真实体验连接起来。</h1>
+        <p class="hero-copy" data-i18n="hero.copy">这里记录我的工程项目、作品照片和骑行活动，也作为我学习与成长的公开档案。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects" data-i18n="hero.primary">查看项目</a>
+          <a class="button secondary" href="#contact" data-i18n="hero.secondary">联系我</a>
+        </div>
+      </div>
+    </section>
 
-<h1>Kevin Wang</h1>
+    <section class="intro section-band">
+      <div class="section-inner intro-grid">
+        <div>
+          <p class="section-kicker" data-i18n="intro.kicker">About</p>
+          <h2 data-i18n="intro.title">你好，我是 Kevin。</h2>
+        </div>
+        <p data-i18n="intro.body">我目前在日本学习机械工程，关注机械结构、制造方法、产品设计和工程表达。这个网站会持续更新课程项目、个人作品、摄影记录和骑行路线。</p>
+      </div>
+    </section>
 
-<p>Mechanical Engineering Student</p>
+    <section class="section" id="projects">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="projects.kicker">Projects</p>
+          <h2 data-i18n="projects.title">项目展示</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="assets/images/project-cad.png" alt="CAD model placeholder">
+            <div class="card-body">
+              <span class="tag" data-i18n="projects.card1.tag">CAD / 结构</span>
+              <h3 data-i18n="projects.card1.title">机械结构设计练习</h3>
+              <p data-i18n="projects.card1.body">用于展示建模、零件装配、尺寸标注和设计意图。之后可以替换为你的 SolidWorks 或 Fusion 作品。</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="assets/images/project-analysis.png" alt="Engineering analysis placeholder">
+            <div class="card-body">
+              <span class="tag" data-i18n="projects.card2.tag">分析 / 报告</span>
+              <h3 data-i18n="projects.card2.title">工程课程项目</h3>
+              <p data-i18n="projects.card2.body">整理课堂报告、实验数据、仿真结果和反思，形成面向作品集的项目页面。</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="assets/images/project-prototype.png" alt="Prototype placeholder">
+            <div class="card-body">
+              <span class="tag" data-i18n="projects.card3.tag">制作 / 原型</span>
+              <h3 data-i18n="projects.card3.title">个人制作记录</h3>
+              <p data-i18n="projects.card3.body">记录从想法、草图、材料选择到制作测试的全过程，适合后续扩展为单独项目页。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<p>🚴 Cyclist</p>
+    <section class="section section-muted" id="gallery">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="gallery.kicker">Gallery</p>
+          <h2 data-i18n="gallery.title">作品照片墙</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure><img src="assets/images/gallery-workshop.png" alt="Workshop placeholder"><figcaption data-i18n="gallery.item1">工作台与工具</figcaption></figure>
+          <figure><img src="assets/images/gallery-campus.png" alt="Campus placeholder"><figcaption data-i18n="gallery.item2">校园与学习</figcaption></figure>
+          <figure><img src="assets/images/gallery-detail.png" alt="Mechanical detail placeholder"><figcaption data-i18n="gallery.item3">机械细节</figcaption></figure>
+          <figure><img src="assets/images/gallery-ride.png" alt="Cycling scene placeholder"><figcaption data-i18n="gallery.item4">骑行途中</figcaption></figure>
+        </div>
+      </div>
+    </section>
 
-<p>FTP: 270W</p>
+    <section class="section" id="cycling">
+      <div class="section-inner cycling-layout">
+        <div class="section-heading compact">
+          <p class="section-kicker" data-i18n="cycling.kicker">Cycling</p>
+          <h2 data-i18n="cycling.title">骑行活动记录</h2>
+          <p data-i18n="cycling.body">这里可以记录路线、距离、爬升、照片和当天感受。以后也可以接入 Strava 链接或 GPX 地图。</p>
+        </div>
+        <div class="ride-list">
+          <article class="ride-item">
+            <span class="ride-date">2026.06</span>
+            <div>
+              <h3 data-i18n="cycling.ride1.title">东京湾轻松骑</h3>
+              <p data-i18n="cycling.ride1.body">距离 42 km / 城市道路 / 适合周末恢复骑。</p>
+            </div>
+          </article>
+          <article class="ride-item">
+            <span class="ride-date">2026.05</span>
+            <div>
+              <h3 data-i18n="cycling.ride2.title">校园周边探索</h3>
+              <p data-i18n="cycling.ride2.body">距离 18 km / 短途记录 / 拍摄素材收集。</p>
+            </div>
+          </article>
+          <article class="ride-item">
+            <span class="ride-date">Next</span>
+            <div>
+              <h3 data-i18n="cycling.ride3.title">下一条路线</h3>
+              <p data-i18n="cycling.ride3.body">预留给下一次骑行，可以加入地图截图和路线总结。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<p>Fuji Hill Climb 2026: 1:18:24</p>
+    <section class="contact section-band" id="contact">
+      <div class="section-inner contact-grid">
+        <div>
+          <p class="section-kicker" data-i18n="contact.kicker">Contact</p>
+          <h2 data-i18n="contact.title">欢迎交流项目、学习和骑行。</h2>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/hjfxdxn" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:your-email@example.com">Email</a>
+          <a href="#home" data-i18n="contact.back">返回顶部</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-</div>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Kevin Wang. Built with GitHub Pages.</p>
+  </footer>
 
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
