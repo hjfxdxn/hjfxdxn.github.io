@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light;
   --bg: #f7f5ef;
   --surface: #ffffff;
   --surface-soft: #eef3f0;
@@ -10,6 +11,45 @@
   --green: #2f6b57;
   --blue: #355f8c;
   --shadow: 0 20px 50px rgba(32, 39, 38, 0.12);
+  --header-bg: rgba(247, 245, 239, 0.9);
+  --header-line: rgba(216, 222, 219, 0.8);
+  --on-dark: #ffffff;
+  --band-bg: #1d2324;
+  --band-text: #ffffff;
+  --band-muted: rgba(255, 255, 255, 0.78);
+  --band-line: rgba(255, 255, 255, 0.2);
+  --control-active-bg: #1d2324;
+  --control-active-fg: #ffffff;
+  --hero-shade-desktop: linear-gradient(90deg, rgba(18, 24, 24, 0.82), rgba(18, 24, 24, 0.42), rgba(18, 24, 24, 0.12));
+  --hero-shade-mobile: linear-gradient(180deg, rgba(18, 24, 24, 0.4), rgba(18, 24, 24, 0.86));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #101414;
+    --surface: #182020;
+    --surface-soft: #141b1b;
+    --ink: #eef3f0;
+    --muted: #aab6b4;
+    --line: #2b3838;
+    --accent: #f07a55;
+    --accent-dark: #ff9a7a;
+    --green: #63a88e;
+    --blue: #82aee0;
+    --shadow: 0 20px 50px rgba(0, 0, 0, 0.38);
+    --header-bg: rgba(16, 20, 20, 0.9);
+    --header-line: rgba(43, 56, 56, 0.85);
+    --on-dark: #f7f5ef;
+    --band-bg: #090c0c;
+    --band-text: #f7f5ef;
+    --band-muted: rgba(247, 245, 239, 0.76);
+    --band-line: rgba(247, 245, 239, 0.18);
+    --control-active-bg: #f7f5ef;
+    --control-active-fg: #101414;
+    --hero-shade-desktop: linear-gradient(90deg, rgba(5, 8, 8, 0.9), rgba(5, 8, 8, 0.58), rgba(5, 8, 8, 0.22));
+    --hero-shade-mobile: linear-gradient(180deg, rgba(5, 8, 8, 0.48), rgba(5, 8, 8, 0.92));
+  }
 }
 
 * {
@@ -42,8 +82,8 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(247, 245, 239, 0.9);
-  border-bottom: 1px solid rgba(216, 222, 219, 0.8);
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--header-line);
   backdrop-filter: blur(16px);
 }
 
@@ -117,8 +157,8 @@ a {
 }
 
 .lang-button.active {
-  background: var(--ink);
-  color: #fff;
+  background: var(--control-active-bg);
+  color: var(--control-active-fg);
 }
 
 .nav-toggle {
@@ -164,13 +204,13 @@ a {
   inset: 0;
   z-index: -1;
   content: "";
-  background: linear-gradient(90deg, rgba(18, 24, 24, 0.82), rgba(18, 24, 24, 0.42), rgba(18, 24, 24, 0.12));
+  background: var(--hero-shade-desktop);
 }
 
 .hero-content {
   width: min(720px, calc(100% - 32px));
   margin: 0 auto 86px;
-  color: #fff;
+  color: var(--on-dark);
 }
 
 .eyebrow,
@@ -218,7 +258,7 @@ h3 {
 .hero-copy {
   max-width: 620px;
   margin: 24px 0 0;
-  color: rgba(255, 255, 255, 0.86);
+  color: color-mix(in srgb, var(--on-dark) 86%, transparent);
   font-size: 1.12rem;
 }
 
@@ -260,8 +300,8 @@ h3 {
 }
 
 .section-band {
-  background: var(--ink);
-  color: #fff;
+  background: var(--band-bg);
+  color: var(--band-text);
 }
 
 .pr-layout,
@@ -277,7 +317,7 @@ h3 {
 .activity-layout > .section-heading p:last-of-type,
 .contact-panel p {
   margin: 0;
-  color: rgba(255, 255, 255, 0.78);
+  color: var(--band-muted);
   font-size: 1.08rem;
 }
 
@@ -298,9 +338,9 @@ h3 {
   min-height: 36px;
   align-items: center;
   padding: 0 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--band-line);
   border-radius: 8px;
-  color: #fff;
+  color: var(--band-text);
   font-size: 0.9rem;
   font-weight: 800;
 }
@@ -420,23 +460,18 @@ h3 {
   color: #fff;
 }
 
-.strava-badge {
-  display: inline-block;
-  width: 48px;
-  height: 48px;
+.strava-link {
+  display: inline-flex;
+  min-height: 48px;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
   margin-top: 24px;
-  background-image: url("https://badges.strava.com/echelon-sprite-48.png");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
-
-.strava-badge img {
-  height: 48px;
-  visibility: hidden;
-}
-
-.strava-badge:hover {
-  background-position: 0 -63px;
+  padding: 0 18px;
+  border-radius: 8px;
+  background: #fc4c02;
+  color: #fff;
+  font-weight: 900;
 }
 
 .ride-list {
@@ -531,7 +566,7 @@ h3 {
   }
 
   .hero::after {
-    background: linear-gradient(180deg, rgba(18, 24, 24, 0.4), rgba(18, 24, 24, 0.86));
+    background: var(--hero-shade-mobile);
   }
 
   .hero-content {
