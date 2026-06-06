@@ -1,6 +1,8 @@
-# KevinWang GitHub Pages Site
+# Kevin Wang GitHub Pages Site
 
 This is a static personal website for `hjfxdxn.github.io`.
+
+Default language: English.
 
 ## Directory
 
@@ -23,6 +25,28 @@ This is a static personal website for `hjfxdxn.github.io`.
     └── js
         └── main.js
 ```
+
+## Current Sections
+
+- Personal PR
+- Research
+- Cycling & Skiing
+- Photo Exhibition
+- Contact
+
+## Information To Fill In
+
+Please prepare these items:
+
+1. Strava profile URL, for example `https://www.strava.com/athletes/12345678`.
+2. Official personal PR text if you want to replace the current draft.
+3. Research topics or class projects after the robotics direction becomes clearer.
+4. University laboratory name, if any.
+5. CAD, prototype, or report images for the research cards.
+6. Cycling records: route name, distance, elevation, time, date, activity URL.
+7. Skiing records: resort, date, snow condition, photos, notes.
+8. Photo exhibition images and captions.
+9. Contact links: Instagram, LinkedIn, university page, if needed.
 
 ## Deploy to GitHub Pages
 
