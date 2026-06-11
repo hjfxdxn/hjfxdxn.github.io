@@ -36,6 +36,7 @@ The site supports English, Chinese, and Japanese. English is the default languag
 |-- activity.html
 |-- photos.html
 |-- blog.html
+|-- fuji-hill-silver-ring.html
 |-- README.md
 `-- assets
     |-- css
