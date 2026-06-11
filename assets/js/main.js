@@ -56,6 +56,7 @@ const translations = {
     "blog.post3.title": "Skiing and body movement",
     "blog.post3.body": "Observations from skiing about balance, edge control, terrain, and equipment.",
     "blog.read": "Read",
+    "blog.draft": "Draft",
     "contact.kicker": "Contact",
     "contact.title": "Let us connect for research, projects, and outdoor activities.",
     "contact.body": "Email: e5a24111ee [at] edu.teu.ac.jp. Please use @ in place of [at] when sending email."
@@ -117,6 +118,7 @@ const translations = {
     "blog.post3.title": "滑雪与身体运动",
     "blog.post3.body": "记录滑雪中的平衡、刃感、地形和装备观察。",
     "blog.read": "阅读",
+    "blog.draft": "草稿",
     "contact.kicker": "联系",
     "contact.title": "欢迎交流研究、项目和户外活动。",
     "contact.body": "邮箱：e5a24111ee [at] edu.teu.ac.jp。发送邮件时请将 [at] 写作 @。"
@@ -178,6 +180,7 @@ const translations = {
     "blog.post3.title": "スキーと身体の動き",
     "blog.post3.body": "スキーでのバランス、エッジ操作、地形、道具についての観察です。",
     "blog.read": "読む",
+    "blog.draft": "下書き",
     "contact.kicker": "連絡",
     "contact.title": "研究、プロジェクト、アウトドア活動について気軽に連絡してください。",
     "contact.body": "メール：e5a24111ee [at] edu.teu.ac.jp。連絡時は [at] を @ に置き換えてください。"

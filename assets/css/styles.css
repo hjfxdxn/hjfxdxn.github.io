@@ -471,6 +471,19 @@ h3 {
   border-radius: 8px;
   background: var(--surface);
   box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.blog-card:hover,
+.blog-card:focus {
+  transform: translateY(-6px);
+  border-color: var(--accent);
+  box-shadow: 0 28px 65px rgba(32, 39, 38, 0.18);
+}
+
+.blog-card:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 .blog-card h2 {
@@ -484,11 +497,15 @@ h3 {
   color: var(--muted);
 }
 
-.blog-card a {
+.blog-card-action {
   width: fit-content;
   margin-top: auto;
   color: var(--accent);
   font-weight: 900;
+}
+
+.blog-card.is-draft {
+  cursor: default;
 }
 
 .blog-date {
